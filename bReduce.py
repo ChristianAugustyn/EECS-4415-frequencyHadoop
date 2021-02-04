@@ -7,7 +7,7 @@ import math
 currKey = None
 currCount = 0
 key = None
-number_of_files = 20
+number_of_files = 20.0
 
 for line in sys.stdin:
     line = line.strip()
@@ -24,10 +24,10 @@ for line in sys.stdin:
     else:
         if currKey:
 
-            print('%s\t%s' % (currKey, math.log(number_of_files / currCount)))
+            print('%s\t%s' % (currKey, math.log(number_of_files / float(currCount))))
         
         currKey = key
         currCount = count
 
 if currKey == key:
-    print('%s\t%s' % (currKey, math.log(number_of_files / currCount)))
+    print('%s\t%s' % (currKey, math.log(number_of_files / float(currCount))))
