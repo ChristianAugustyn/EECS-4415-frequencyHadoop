@@ -1,0 +1,8 @@
+name:
+	Christian Augustyn
+studentNumber:
+	215971179
+
+observations:
+	noted that some of the lines in the tf-idf values from the sample output different by at most 2 integer values from the output of my mapreduce task for certain words, while for other words, the values where the same. Also noted that the values in the sample output differed in number format (shoter decimal values)
+	

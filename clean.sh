@@ -1,0 +1,1 @@
+rm out.txt exit.txt last.txt mr1.txt mr2.txt check.txt
