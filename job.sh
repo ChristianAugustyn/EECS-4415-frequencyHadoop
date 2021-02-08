@@ -37,4 +37,4 @@ bin/hadoop jar $STREAMINGJAR \
     -mapper $WCDIR/cMap.py \
     -reducer $WCDIR/cReduce.py \
     -input TF_values/'*',IDF_values/'*' \
-    -output FinalMR
+    -output Out

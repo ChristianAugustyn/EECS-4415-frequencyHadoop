@@ -15,7 +15,7 @@ for line in sys.stdin:
         word, tail = line.split(comma, 1)
         doc, value = tail.split(tab, 1)
         value = int(value)
-        tf_idf = value * idf
+        tf_idf = '{:.6f}'.format(value * idf)
         print('%s,%s\t%s' % (word, doc, tf_idf))
 
     else:
